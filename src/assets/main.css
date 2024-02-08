@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Kenvector Future';
+    src: url('/kssr/Bonus/kenvector_future.ttf');
+}
+
+@font-face {
+    font-family: 'Balgin Black';
+    src: url('/kssr/Bonus/balgin-black.ttf');
+}
+
+@font-face {
+    font-family: 'Anek Tamil';
+    src: url('/kssr/Bonus/AnekTamil-VariableFont_wdth,wght.ttf');
+}
+
+button {
+    padding: 16px 32px;
+    background: linear-gradient(#ED72B5 0, #D90277 100%);
+    color: white;
+    font-family: 'Kenvector Future';
+    border: none;
+    outline: none;
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    border: none;
+    outline: none;
+
+    color: white;
+    background-color: transparent;
+    box-shadow: white 0 1px 0;
+
+    padding: 16px 24px;
+
+    font-family: 'Anek Tamil';
+    font-size: 32px;
+    text-align: center;
+
+    width: 100%;
+}
+
+input[type="text"]::placeholder {
+    color: white;
+}
